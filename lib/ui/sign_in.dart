@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_wallet/assets_path.dart';
+import 'package:get/get.dart';
 import 'package:intl/intl.dart';
+
+import 'drawer_page.dart';
 
 class SignInPage extends StatefulWidget {
   const SignInPage({Key? key}) : super(key: key);
@@ -117,7 +120,9 @@ class _SignInPageState extends State<SignInPage> {
           height: 50,
           minWidth: 200,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-          onPressed: () {},
+          onPressed: () {
+            Get.to(() => DrawerPage());
+          },
           child: Text(
             'Sign in',
             style: Theme.of(context).textTheme.button,

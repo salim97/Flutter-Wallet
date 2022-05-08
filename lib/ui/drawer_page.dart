@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_wallet/assets_path.dart';
 
+import 'home_page.dart';
+
 class DrawerPage extends StatefulWidget {
   const DrawerPage({Key? key}) : super(key: key);
 
@@ -136,7 +138,7 @@ class _DrawerPageState extends State<DrawerPage> with TickerProviderStateMixin {
                   ),
                   child: ClipRRect(
                     borderRadius: sideBarActive ? const BorderRadius.all(Radius.circular(40)) : const BorderRadius.all(Radius.circular(0)),
-                    child: Container(),
+                    child: HomePage(),
                   ),
                 ),
               ),
