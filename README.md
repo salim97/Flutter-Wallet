@@ -8,7 +8,7 @@
 
 # Flutter Wallet App UI
  With Dark & Light Theme
-- [original Design](https://www.uplabs.com/posts/ewalle-portable-wallet)
+- [Original Design](https://www.uplabs.com/posts/ewalle-portable-wallet)
  
 ## Light Theme
 
