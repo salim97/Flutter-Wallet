@@ -1,5 +1,5 @@
 
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=salim97.Flutter-Wallet)
+![visitor badge](https://komarev.com/ghpvc/?username=salim97.Flutter-Wallet)
 
 # Flutter Wallet App UI
  With Dark & Light Theme
